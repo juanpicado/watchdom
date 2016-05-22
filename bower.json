@@ -1,5 +1,6 @@
 {
   "name": "watchdom",
+  "version": "1.0.0",
   "description": "A  MutationObserver chainable dom observer",
   "main": "dist/index.js",
   "authors": [
