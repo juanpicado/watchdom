@@ -10,6 +10,11 @@
   "keywords": [
     "MutationObserver"
   ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
   "ignore": [
     "lib",
     "sample",
@@ -20,13 +25,17 @@
     "package.json",
     "readme.md"
   ],
-  "moduleType": [],
-  "homepage": "",
+  "homepage": "https://github.com/juanpicado/watchdom",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
+    ".idea/",
+    ".codeclimate.yml",
+    ".eslintrc",
+    ".npmignore",
+    ".travis.yml",
     "tests"
   ]
 }
