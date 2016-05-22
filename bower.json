@@ -10,6 +10,16 @@
   "keywords": [
     "MutationObserver"
   ],
+  "ignore": [
+    "lib",
+    "sample",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "package.json",
+    "readme.md"
+  ],
   "moduleType": [],
   "homepage": "",
   "ignore": [
