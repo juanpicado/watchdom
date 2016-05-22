@@ -37,7 +37,7 @@ watcher.notify( function( mutation ) {
 	// do something
 } );
 
-....
+...
 
 watcher.stop();
 
