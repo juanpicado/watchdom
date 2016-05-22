@@ -8,24 +8,25 @@
     "server": "node_modules/.bin/serve",
     "lint": "npm run jshint && npm run jscs",
     "jshint": "jshint .",
-    "jscs": "node bin/jscs lib test bin publish",
+    "jscs": "node node_modules/.bin/jscs lib --fix",
     "pretest": "npm run lint",
-     "test": "mocha --color"
+    "test": "node_modules/.bin/mocha --color"
   },
-  "files" : [
+  "files": [
     "dist",
     "package.json"
   ],
   "author": "Juan Picado <me@jotadeveloper.com> (http://jotadeveloper.com/)",
   "license": "MIT",
   "devDependencies": {
-      "webpack": "^1.13.1",
-      "expose-loader": "^0.7.1",
-      "chai": "^3.3.0",
-      "coveralls": "~2.11.2",
-      "jshint": "~2.8.0",
-      "mocha": "^2.2.0",
-      "sinon": "^1.13.0",
-      "sinon-chai": "^2.8.0"
+    "chai": "^3.3.0",
+    "coveralls": "~2.11.2",
+    "expose-loader": "^0.7.1",
+    "jscs": "^3.0.3",
+    "jshint": "~2.8.0",
+    "mocha": "^2.2.0",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.8.0",
+    "webpack": "^1.13.1"
   }
 }
