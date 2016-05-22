@@ -1,0 +1,21 @@
+{
+  "name": "watchdom",
+  "description": "A  MutationObserver chainable dom observer",
+  "main": "dist/index.js",
+  "authors": [
+    "Juan Picado <me@jotadeveloper.com> (http://jotadeveloper.com/)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "MutationObserver"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
