@@ -16,6 +16,7 @@
     "dist",
     "package.json"
   ],
+  "repository" : "https://github.com/juanpicado/watchdom",  
   "author": "Juan Picado <me@jotadeveloper.com> (http://jotadeveloper.com/)",
   "license": "MIT",
   "devDependencies": {
