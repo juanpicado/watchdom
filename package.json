@@ -16,7 +16,10 @@
     "dist",
     "package.json"
   ],
-  "repository" : "https://github.com/juanpicado/watchdom",  
+  "engines": {
+    "node": ">=5.0"
+  },
+  "repository" : "https://github.com/juanpicado/watchdom",
   "author": "Juan Picado <me@jotadeveloper.com> (http://jotadeveloper.com/)",
   "license": "MIT",
   "devDependencies": {
