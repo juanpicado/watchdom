@@ -1,8 +1,8 @@
 {
   "name": "watchdom",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A  MutationObserver chainable dom observer",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run build",
     "build": "npm run lint && node_modules/.bin/webpack --config webpack.config.js && npm test",
@@ -27,6 +27,6 @@
     "mocha": "^2.2.0",
     "mocha-phantomjs-core": "^1.3.1",
     "phantomjs": "^2.1.7",
-    "webpack": "^1.13.1"
+    "webpack-babel-conf": "*"
   }
 }
