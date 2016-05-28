@@ -2,6 +2,7 @@
 
 *WatchDom* is a **MutationObserver** chainable library dom observer.
 
+[![Build Status](https://travis-ci.org/juanpicado/watchdom.svg?branch=master)](https://travis-ci.org/juanpicado/watchdom)
 
 ## Install
 
