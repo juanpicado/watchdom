@@ -1,6 +1,6 @@
 {
   "name": "watchdom",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A  MutationObserver chainable dom observer",
   "main": "lib/index.js",
   "scripts": {
