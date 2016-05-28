@@ -19,6 +19,8 @@ $ bower install watchdom
 
 ## Usage
 
+##### Browser
+
 `````
 var myElement = document.getElementById( "example" );
 
@@ -42,3 +44,21 @@ watcher.notify( function( mutation ) {
 watcher.stop();
 
 `````
+
+##### npm
+
+`````
+import WatchDom from 'watchdom';
+
+let watcher = WatchDom();
+watcher.observe( myElement, params );
+watcher.notify( ( mutation ) => {
+	// do something
+} );
+
+...
+
+watcher.stop();
+
+
+``````
