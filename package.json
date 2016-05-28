@@ -14,7 +14,7 @@
   },
   "files": [
     "dist",
-    "lib"
+    "lib",
     "package.json"
   ],
   "engines": {
