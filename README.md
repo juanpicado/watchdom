@@ -51,7 +51,7 @@ watcher.stop();
 `````
 import WatchDom from 'watchdom';
 
-let watcher = WatchDom();
+let watcher = new new (Function.prototype.bind.call(WatchDom, null, []))();
 watcher.observe( myElement, params );
 watcher.notify( ( mutation ) => {
 	// do something
