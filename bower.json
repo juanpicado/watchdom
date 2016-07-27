@@ -11,10 +11,13 @@
     "MutationObserver"
   ],
   "moduleType": [
-    "amd",
-    "globals",
-    "node"
+    "globals"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanpicado/watchdom"
+  },
+  "homepage": "https://github.com/juanpicado/watchdom",
   "ignore": [
     "lib",
     "sample",
@@ -23,11 +26,7 @@
     ".jshintignore",
     ".jshintrc",
     "package.json",
-    "readme.md"
-  ],
-  "homepage": "https://github.com/juanpicado/watchdom",
-  "ignore": [
-    "**/.*",
+    "readme.md",
     "node_modules",
     "bower_components",
     "test",

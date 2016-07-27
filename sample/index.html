@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
   <meta charset ="utf-8">
+  <style>
+      .example {
+        padding: 20px;
+        border: 1px solid black;
+        min-height: 300px; 
+      }
+   </style> 
+  <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
 </head>
 <body>
-  <div id="example"></div>
+  <div class="controls">
+      <button id="add">Add Element</button>
+      <button id="clean">Clean Elements</button>
+  </div>
+  <div id="example" class="example"></div>
   <script src = "../dist/watchdom.browser.min.js"></script>
   <script src = "example.js"></script>
 </body>
