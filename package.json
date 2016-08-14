@@ -5,12 +5,12 @@
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "npm run lint && node_modules/.bin/webpack --config webpack.config.js && npm test",
-    "server": "node_modules/.bin/serve",
+    "build": "npm run lint && webpack --config webpack.config.js && npm test",
+    "server": "serve",
     "lint": "npm run jshint && npm run jscs",
-    "jshint": "node_modules/.bin/jshint .",
-    "jscs": "node node_modules/.bin/jscs lib --fix",
-    "test": "node_modules/.bin/phantomjs node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js test/TestRunner.html "
+    "jshint": "jshint .",
+    "jscs": "jscs lib --fix",
+    "test": "phantomjs node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js test/TestRunner.html "
   },
   "files": [
     "dist",
@@ -20,7 +20,7 @@
   "engines": {
     "node": ">=5.0"
   },
-  "repository" : "https://github.com/juanpicado/watchdom",
+  "repository": "https://github.com/juanpicado/watchdom",
   "author": "Juan Picado <me@jotadeveloper.com> (http://jotadeveloper.com/)",
   "license": "MIT",
   "devDependencies": {
@@ -29,10 +29,10 @@
     "expose-loader": "^0.7.1",
     "jscs": "^3.0.3",
     "jshint": "~2.8.0",
-    "serve": "^1.4.0",
     "mocha": "^2.2.0",
     "mocha-phantomjs-core": "^1.3.1",
     "phantomjs": "^2.1.7",
-    "webpack-babel-conf": "*"
+    "serve": "^1.4.0",
+    "webpack-babel-conf": "^1.1.1"
   }
 }
