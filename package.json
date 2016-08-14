@@ -10,7 +10,7 @@
     "lint": "npm run jshint && npm run jscs",
     "jshint": "jshint .",
     "jscs": "jscs lib --fix",
-    "test": "phantomjs node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js test/TestRunner.html "
+    "test": "karma start --single-run"
   },
   "files": [
     "dist",
@@ -29,8 +29,10 @@
     "expose-loader": "^0.7.1",
     "jscs": "^3.0.3",
     "jshint": "~2.8.0",
+    "karma-chai": "^0.1.0",
+    "karma-junit-reporter": "^1.1.0",
+    "karma-mocha": "^1.1.1",
     "mocha": "^2.2.0",
-    "mocha-phantomjs-core": "^1.3.1",
     "phantomjs": "^2.1.7",
     "serve": "^1.4.0",
     "webpack-babel-conf": "^1.1.1"

@@ -1,5 +1,5 @@
 /* globals document, describe, domWatcher, chai */
-var expect = (chai && chai.expect) || require('chai').expect;
+//var expect = (chai && chai.expect) || require('chai').expect;
 
 describe('domWatcher Tests', function() {
 
