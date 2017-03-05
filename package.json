@@ -12,6 +12,7 @@
     "jscs": "jscs lib --fix",
     "test": "karma start --single-run"
   },
+  "keywords": ["mutation", "observer", "dom"],
   "files": [
     "dist",
     "lib",
